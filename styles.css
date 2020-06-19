@@ -1,0 +1,76 @@
+.medal-widget * {
+  color: slategray;
+  font-family: 'Roboto', sans-serif;
+}
+
+.medal-widget h2 {
+  font-size: 1.25em;
+  color: lightslategrey;
+  font-weight: lighter;
+}
+
+.medal-widget table {
+  border-collapse: collapse;
+}
+
+.medal-widget tbody tr {
+  border-bottom: 1px solid grey;
+}
+
+.medal-widget td {
+  padding: 10px 10px;
+}
+
+.medal-widget th {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid grey;
+  padding: 8px 15px;
+  color: darkslategrey;
+}
+
+.medal-widget .column-header-active {
+  border-top-color: grey;
+}
+
+.ranking-cell {
+  text-align: right;
+}
+
+.score-cell {
+  text-align: center;
+}
+
+.total-score-cell {
+  color: darkslategrey;
+}
+
+.country-code-cell {
+  min-width: 114px;
+}
+
+.medal-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.medal-dot-gold {
+  background-color: gold;
+}
+
+.medal-dot-silver {
+  background-color: silver;
+}
+
+.medal-dot-bronze {
+  background-color: saddlebrown;
+}
+
+.flag-image {
+  background-image: url('https://s3-us-west-2.amazonaws.com/reuters.medals-widget/flags.png');
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 17px;
+  display: inline-block;
+}
